@@ -1,0 +1,6 @@
+services:
+  db-mysql:
+    build: ./mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: my-db
