@@ -4,3 +4,5 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: my-db
+    ports:
+      - '3306:3306'
